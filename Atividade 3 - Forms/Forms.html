@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+
+            <legend>Formulario de inscrição</legend>
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome" style="margin-left: 7%;"><br>
+            <label>Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" style="margin-left: 4.5%;"><br>
+            <label>Idade</label>
+            <input type="number" min="18" max="120" name="idade" id="idade" style="margin-left: 7.5%; width: 40px;"><br>
+            <label>e-mail</label>
+            <input type="email" name="e-mail" id="e-mail" style="margin-left: 7%;"><br>
+    
+    
+            <label>Sexo</label>
+            <label>
+                <input type="radio" name="sexo" value="Masculino" style="margin-left: 7%;" checked>Masculino
+                <input type="radio" name="sexo" value="Feminino">Feminino
+                <br>
+            </label>
+    
+            <label>País</label>
+            <select id="País">
+                <option>Argentina</option>
+                <option>Brasil</option>
+                <option>Venezuela</option>
+                <option>Angola</option>
+                <option>Uruguai</option>
+            </select><br><br><br>
+    
+            <label>As linguagens que você prefere?</label>
+            <select name="linguagens" id="linguagens" multiple>
+                <option>Java</option>
+                <option>C</option>
+                <option>C++</option>
+                <option>PHP</option>
+            </select>
+            <label>(Mantenha ctrl pressiondo para varias escolhas)</label><br><br>
+    
+            <label>areas de atuação</label>
+            <input type="checkbox" name="area1" id="area1" value="computação">
+            <label for="area1">computação</label>
+            <input type="checkbox" name="area2" id="area2" value="gestão">
+            <label for="area2">gestão</label>
+            <input type="checkbox" name="area3" id="area3" value="pedagogia">
+            <label for="area3">pedagogia</label><br>
+    
+            <input type="submit" name="enviar" value="enviar">
+            <input type="reset" name="limpar" value="limpar">
+        </fieldset>
+    </form>
+</body>
+</html>
