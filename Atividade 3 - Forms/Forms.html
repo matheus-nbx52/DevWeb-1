@@ -12,21 +12,21 @@
 
             <legend>Formulario de inscrição</legend>
             <label>Nome</label>
-            <input type="text" name="nome" id="nome" style="margin-left: 7%;"><br>
+            <input type="text" name="nome" id="nome"><br>
             <label>Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome" style="margin-left: 4.5%;"><br>
+            <input type="text" name="sobrenome" id="sobrenome"><br>
             <label>Idade</label>
-            <input type="number" min="18" max="120" name="idade" id="idade" style="margin-left: 7.5%; width: 40px;"><br>
+            <input type="number" min="18" max="120" name="idade" id="idade"><br>
             <label>e-mail</label>
-            <input type="email" name="e-mail" id="e-mail" style="margin-left: 7%;"><br>
+            <input type="email" name="e-mail" id="e-mail"><br>
     
     
             <label>Sexo</label>
             <label>
-                <input type="radio" name="sexo" value="Masculino" style="margin-left: 7%;" checked>Masculino
+                <input type="radio" name="sexo" value="Masculino" checked>Masculino
                 <input type="radio" name="sexo" value="Feminino">Feminino
                 <br>
-            </label>
+            </label><br>
 
             <label>Foto</label> <input type="file" accept="image/png, image/jpeg" name="choose file"> <br>
 
@@ -61,5 +61,12 @@
             <input type="reset" name="limpar" value="limpar">
         </fieldset>
     </form>
+
+    <style>
+        label{
+        display: inline-block;
+        width: 120px;
+        }
+    </style>
 </body>
 </html>
